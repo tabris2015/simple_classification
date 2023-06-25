@@ -223,4 +223,5 @@ class MyResnet18(pl.LightningModule):
         return preds
 
     def configure_optimizers(self):
+        print("hola bola")
         return optim.Adam(self.parameters(), lr=0.001)
