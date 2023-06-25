@@ -8,6 +8,6 @@ def csv_to_buckets(csv_file: str, out_dir: str, n_buckets: int = 3):
 
 
 if __name__ == "__main__":
-    csv_file = "/home/pepe/dev/datasets/dataset/target1.csv"
+    csv_file = "/home/pepe/dev/datasets/dataset/target4.csv"
 
     csv_to_buckets(csv_file, "/tmp")
